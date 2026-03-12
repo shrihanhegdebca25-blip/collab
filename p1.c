@@ -15,7 +15,7 @@ void insertatstart()
    newnode->next=head;
    head=newnode;
 }
-
+// insertion code 
 void insertatend()
 {
     struct node *newnode = (struct node*)malloc(sizeof(struct node));
