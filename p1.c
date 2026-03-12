@@ -26,7 +26,7 @@ void insertatend()
         head = newnode;
         return;
     }
-
+//hi hellooooooooooooooooo 123
     struct node *temp = head;
     while(temp->next != NULL) {
         temp = temp->next;
